@@ -10,9 +10,8 @@ int number = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Enter number two");
 int numberTwo = int.Parse(Console.ReadLine()!);
 
-if ( number> numberTwo)
-{
-    if(number == numberTwo*numberTwo)
+
+    if(number == numberTwo*numberTwo||numberTwo == number*number)
     {
         Console.WriteLine("YES");
     }
@@ -21,17 +20,7 @@ if ( number> numberTwo)
         Console.WriteLine("NO");
 
     }
-}
-else
-{
-    if(numberTwo == number*number)
-    {
-        Console.WriteLine("YES");
-    }
-    else
-    {
-        Console.WriteLine("NO");
+    
 
-    }
 
-}
+
